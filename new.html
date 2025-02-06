@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Majhi Vedu</title>
+    <link rel="stylesheet" href="new.css" />
+    <style>
+      /* Fullscreen background image */
+      body {
+        background: url('bg-img.jpg') no-repeat center center/cover;
+        font-family: 'Helvetica Neue', sans-serif;
+        color: white;
+        margin: 0;
+        padding: 0;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start; /* Content starts at the top */
+      }
+
+      /* Light overlay to make text readable */
+      body::before {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.1); /* Very subtle overlay */
+        z-index: -1;
+      }
+
+      /* Main content wrapper */
+      .wrap {
+        max-width: 800px;
+        padding: 50px 20px;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 15px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+        margin: 50px auto;
+        text-align: center;
+      }
+
+      h1 {
+        font-size: 50px;
+        margin-bottom: 20px;
+        color: #ff4e50;
+        text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.3);
+      }
+
+      .postcard {
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      }
+
+      p {
+        font-size: 20px;
+        line-height: 1.8;
+        color: white;
+        max-width: 700px;
+        margin: auto;
+        text-align: center;
+      }
+
+      .span {
+        font-weight: bold;
+        color: #ff4e50;
+      }
+
+      .ullu {
+        font-size: 22px;
+        color: #ff5c8d;
+        font-style: italic;
+        margin-top: 20px;
+        display: inline-block;
+        transition: transform 0.3s ease-in-out;
+      }
+
+      .ullu:hover {
+        color: #ff4e50;
+        transform: scale(1.1);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <h1>💖</h1>
+      <div class="postcard">
+        <p>
+          <span class="span">Hey Koyal Kanthi Pari,</span>
+          <br /><br />
+          The red roses are a reflection of how passionately I long for your love.🌹 Your beauty is like a sweet song that plays on repeat in my heart, and I never want the melody to stop.
+          <br /><br />
+          Among all the flowers in the world, you’re the rarest, the one I’ll always protect, adore, and treasure. Thank you for being the reason my heart races and for turning every day into a fairytale. 🌹
+          <br /><br />
+          Here's to more smiles, more adventures, and an eternity of love. Happy Rose Day, my love! 💖
+          <br />
+          <span class="ullu">Forever Yours,</span>
+          <br />
+          Shreyas Pathe.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
